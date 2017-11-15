@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FREE Code Camp File Metadata Microservice</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+</head>
+<body>
+    <div class="App container">
+      <header class="App-header">
+        <img src="/logo.svg" class="App-logo" alt="logo" />
+        <h1 class="App-title">FreeCodeCamp API Basejump: File Metadata Microservice</h1>
+      </header>
+      <section class="section">
+        <blockquote>
+          User stories:
+          <ul>1) You can submit a FormData object that includes a file upload.</ul>
+          <ul>2) When you submit something, you will receive the file size in bytes within the JSON response</ul>
+        </blockquote>
+        <div>
+          <h3>Submit a file to view its filesize:</h3>
+          <form action="/get-file-size" method="post" enctype="multipart/form-data">
+            <input class="upload-jpg" id="upload" name="file" type="file" value="Choose a file">
+            <input type="submit">
+          </form>
+        </div>
+      </section>
+    </div>
+</body>
+</html>

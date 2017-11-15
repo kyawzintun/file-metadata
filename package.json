@@ -1,0 +1,38 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "Free Code Camp file metadata microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyawzintun/file-metadata.git"
+  },
+  "keywords": [
+    "Free",
+    "Code",
+    "Camp",
+    "file",
+    "metadata",
+    "microservice"
+  ],
+  "author": "KZT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyawzintun/file-metadata/issues"
+  },
+  "homepage": "https://github.com/kyawzintun/file-metadata#readme",
+  "dependencies": {
+    "cors": "2.8.4",
+    "ejs": "2.5.7",
+    "express": "4.16.2",
+    "multer": "1.3.0",
+    "pretty-bytes": "4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
